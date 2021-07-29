@@ -1,0 +1,63 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Commom Styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a:hover{
+    color: #E76F51;
+}
+.header-bg{
+    background-color: #264653;
+    padding: 100px 0;
+}
+.honda-btn{
+    background-color: #E76F51;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+.gray-img{
+    filter: grayscale(100%);
+}
+
+.colored-text{
+    color: #E76F51;
+}
+.user-name{
+    color: #23A6F0;
+}
+.honda-img{
+    transition: .8s;
+}
+.card:hover .honda-img{
+    transform: scale(1.3);
+}
+.honda-space{
+    margin: 100px 0 130px;
+}
+
+ /* media queries */
+
+
+@media (max-width: 767px) {
+    .banner-left{
+        margin-bottom: 70px;
+    }
+    .featured-bike{
+        margin-bottom: 50px;
+    }
+    .faq-img{
+        margin-bottom: 50px;
+    }
+}
